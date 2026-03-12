@@ -1,15 +1,6 @@
-// ═══════════════════════════════════════════════════════════════
-//  KisanMitra Dataset — Your Own Farming Knowledge Base
-//  Language: English + Hindi (Bilingual)
-//  Topics: Crops, Diseases, Soil, Irrigation, Govt, Harvest, Weather
-//  HOW TO ADD MORE: Copy any entry block and fill your own data!
-// ═══════════════════════════════════════════════════════════════
-
 const KISAN_DATASET = [
 
-  // ════════════════════════════════
-  //  🌱 CROPS & PLANTING
-  // ════════════════════════════════
+
   {
     id: "crop_wheat",
     keywords: ["wheat", "gehu", "गेहूं", "gehun", "rabi crop", "winter crop"],
@@ -209,9 +200,7 @@ const KISAN_DATASET = [
     }
   },
 
-  // ════════════════════════════════
-  //  🦠 DISEASES & PESTS
-  // ════════════════════════════════
+
   {
     id: "disease_blast",
     keywords: ["blast", "rice blast", "paddy disease", "brown spot", "leaf spot", "dhaan rog"],
@@ -323,9 +312,7 @@ const KISAN_DATASET = [
     }
   },
 
-  // ════════════════════════════════
-  //  🌍 SOIL & FERTILIZERS
-  // ════════════════════════════════
+ 
   {
     id: "soil_testing",
     keywords: ["soil test", "mitti janch", "मिट्टी जाँच", "ph", "soil health", "soil card", "nutrient"],
@@ -416,9 +403,7 @@ const KISAN_DATASET = [
     }
   },
 
-  // ════════════════════════════════
-  //  💧 IRRIGATION & WATER
-  // ════════════════════════════════
+
   {
     id: "irrigation_drip",
     keywords: ["drip", "drip irrigation", "trickle", "micro irrigation", "boond sinchai", "बूंद सिंचाई"],
@@ -507,9 +492,7 @@ const KISAN_DATASET = [
     }
   },
 
-  // ════════════════════════════════
-  //  🏛 GOVT SCHEMES & PRICES
-  // ════════════════════════════════
+
   {
     id: "scheme_pmkisan",
     keywords: ["pm kisan", "pmkisan", "6000", "kisan samman", "सम्मान निधि", "government money", "sarkar paisa"],
@@ -682,9 +665,7 @@ const KISAN_DATASET = [
     }
   },
 
-  // ════════════════════════════════
-  //  🏚 HARVEST & STORAGE
-  // ════════════════════════════════
+
   {
     id: "harvest_wheat",
     keywords: ["harvest", "katai", "कटाई", "threshing", "storage", "storage grain", "godown", "silo", "grain storage"],
@@ -732,9 +713,7 @@ const KISAN_DATASET = [
     }
   },
 
-  // ════════════════════════════════
-  //  🌦 WEATHER & SEASONS
-  // ════════════════════════════════
+
   {
     id: "weather_kharif",
     keywords: ["kharif", "खरीफ", "monsoon", "barish", "बारिश", "summer crop", "june july august"],
@@ -831,9 +810,7 @@ const KISAN_DATASET = [
     }
   },
 
-  // ════════════════════════════════
-  //  GENERAL / GREETINGS
-  // ════════════════════════════════
+
   {
     id: "greeting",
     keywords: ["hello", "hi", "namaste", "नमस्ते", "helo", "hey", "good morning", "good evening", "namaskar"],
@@ -897,14 +874,4 @@ Just ask me anything — I'm here to help your farm thrive! 🙏`,
 <b>🏛 सरकारी सहायता:</b> परंपरागत कृषि विकास योजना (PKVY) — ₹50,000/हेक्टेयर जैविक प्रमाणीकरण सब्सिडी`
     }
   }
-
-  // ═══════════════════════════════════════════════
-  //  💡 ADD YOUR OWN DATA BELOW!
-  //  Copy the block above and fill in:
-  //  - id: unique name
-  //  - keywords: words user might type
-  //  - topic: category name
-  //  - answer.en: English answer
-  //  - answer.hi: Hindi answer
-  // ═══════════════════════════════════════════════
 ];
